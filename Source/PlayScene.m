@@ -26,13 +26,7 @@ int steps;
 
     CCScene* gameplayScene  =  [ CCBReader  loadAsScene: @"PlayScene" ];
     PlayScene* myScene = (PlayScene*)[gameplayScene.children objectAtIndex:0];
-    /*
-    CCNode *touchNode = [CCNode node];
-    touchNode.userInteractionEnabled = YES;
-    touchNode.multipleTouchEnabled = YES;
-    touchNode.contentSize = CGSizeMake(1, 1);
-    [myScene addChild:touchNode];
-    */
+    
     Level = level;
     myScene.userInteractionEnabled = TRUE;
     myScene->AIplayer = [MinMaxPlayer newPlayer:AILevel];
