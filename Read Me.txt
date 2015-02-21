@@ -1,0 +1,11 @@
+1. Please open the .xcodeproj file with xcode to run the game.
+
+2. back button: go back to main menu and restart the game.
+
+3. remove chip button: click the button and select the chip which you want to remove (only able to select player chip (red)). If the player click the remove chip button and then change his mind not to remove, just click the button again.
+
+4. On the top of PlayScene.m file, you can change the size of board and the diffuculty of computer. I suggest to use the level under 7 for game performance (default is 5).
+
+5. Use MinMax as AI algorithm.
+
+Thank you
